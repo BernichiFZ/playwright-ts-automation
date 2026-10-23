@@ -1,0 +1,348 @@
+- generic [ref=f2e2]:
+  - generic [ref=f2e3]:
+    - text: View the
+    - link "Documentation" [ref=f2e4] [cursor=pointer]:
+      - /url: https://testsmith-io.github.io/practice-software-testing/#/
+    - text: for this application.
+  - generic [ref=f2e5]:
+    - generic [ref=f2e7]:
+      - generic [ref=f2e8]: Practice Black Box Testing & Bug Hunting
+      - button "Testing Guide" [ref=f2e9] [cursor=pointer]
+      - button "🐛 Bug Hunting" [ref=f2e10] [cursor=pointer]
+    - navigation [ref=f2e11]:
+      - generic [ref=f2e12]:
+        - link "Practice Software Testing - Toolshop" [ref=f2e13] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f2e32]:
+          - menubar "Main menu" [ref=f2e33]:
+            - menuitem [ref=f2e34]:
+              - link "Accueil" [ref=f2e35] [cursor=pointer]:
+                - /url: /
+            - menuitem [ref=f2e36]:
+              - button "Catégories" [ref=f2e37] [cursor=pointer]
+            - menuitem [ref=f2e38]:
+              - link "Contact" [ref=f2e39] [cursor=pointer]:
+                - /url: /contact
+            - menuitem [ref=f2e40]:
+              - link "Se connecter" [ref=f2e41] [cursor=pointer]:
+                - /url: /auth/login
+          - generic [ref=f2e42]:
+            - button "Select language" [expanded] [active] [ref=f2e43] [cursor=pointer]: FR
+            - menu "Select language" [ref=f2e401]:
+              - menuitem "DE" [ref=f2e402]
+              - menuitem "EL" [ref=f2e404]
+              - menuitem "EN" [ref=f2e406]
+              - menuitem "ES" [ref=f2e408]
+              - menuitem "FR" [ref=f2e410]
+              - menuitem "NL" [ref=f2e412]
+              - menuitem "TR" [ref=f2e414]
+  - generic [ref=f2e48]:
+    - generic [ref=f2e49]:
+      - heading "Practice Software Testing - Toolshop" [level=1] [ref=f2e50]
+      - paragraph [ref=f2e51]:
+        - img "Banner" [ref=f2e52]
+      - separator [ref=f2e53]
+      - generic [ref=f2e54]:
+        - text: Vous avez aimé tester cette application ? Montez en compétences avec des cours pratiques de test logiciel.
+        - link "Découvrir les cours" [ref=f2e57] [cursor=pointer]:
+          - /url: https://onlinecourses.testsmith.io/?utm_source=pst&utm_medium=homepage&utm_campaign=app_promo
+    - generic [ref=f2e58]:
+      - generic [ref=f2e59]:
+        - heading [level=4] [ref=f2e60]
+        - separator [ref=f2e64]
+        - combobox "sort" [ref=f2e67]:
+          - option [selected]
+          - option "Nom (A - Z)"
+          - option "Nom (Z - A)"
+          - option "Prix (Élevé - Bas)"
+          - option "Prix (Bas - Élevé)"
+          - option "Évaluation CO₂ (A - E)"
+          - option "Évaluation CO₂ (E - A)"
+        - heading [level=4] [ref=f2e68]
+        - separator [ref=f2e72]
+        - generic "ngx-slider" [ref=f2e74]:
+          - slider "ngx-slider" [ref=f2e79] [cursor=pointer]
+          - slider "ngx-slider-max" [ref=f2e80] [cursor=pointer]
+          - generic [ref=f2e81]: "0"
+          - generic [ref=f2e82]: "200"
+          - generic [ref=f2e83]: "1"
+          - generic [ref=f2e84]: "100"
+        - heading [level=4] [ref=f2e86]
+        - separator [ref=f2e90]
+        - generic [ref=f2e92]:
+          - generic [ref=f2e93]: Rechercher
+          - textbox "Rechercher" [ref=f2e94]
+          - button "X" [ref=f2e95] [cursor=pointer]
+          - button "Rechercher" [ref=f2e96] [cursor=pointer]
+        - heading [level=4] [ref=f2e97]
+        - separator [ref=f2e101]
+        - heading "Par catégorie:" [level=4] [ref=f2e102]
+        - group "Catégories" [ref=f2e103]:
+          - generic [ref=f2e105]:
+            - generic [ref=f2e106]:
+              - checkbox "Hand Tools" [ref=f2e107]
+              - text: Hand Tools
+            - list [ref=f2e108]:
+              - group "Catégories" [ref=f2e109]:
+                - generic [ref=f2e112]:
+                  - checkbox "Hammer" [ref=f2e113]
+                  - text: Hammer
+                - generic [ref=f2e115]:
+                  - checkbox "Hand Saw" [ref=f2e116]
+                  - text: Hand Saw
+                - generic [ref=f2e118]:
+                  - checkbox "Wrench" [ref=f2e119]
+                  - text: Wrench
+                - generic [ref=f2e121]:
+                  - checkbox "Screwdriver" [ref=f2e122]
+                  - text: Screwdriver
+                - generic [ref=f2e124]:
+                  - checkbox "Pliers" [ref=f2e125]
+                  - text: Pliers
+                - generic [ref=f2e127]:
+                  - checkbox "Chisels" [ref=f2e128]
+                  - text: Chisels
+                - generic [ref=f2e130]:
+                  - checkbox "Measures" [ref=f2e131]
+                  - text: Measures
+          - generic [ref=f2e132]:
+            - generic [ref=f2e133]:
+              - checkbox "Power Tools" [ref=f2e134]
+              - text: Power Tools
+            - list [ref=f2e135]:
+              - group "Catégories" [ref=f2e136]:
+                - generic [ref=f2e139]:
+                  - checkbox "Grinder" [ref=f2e140]
+                  - text: Grinder
+                - generic [ref=f2e142]:
+                  - checkbox "Sander" [ref=f2e143]
+                  - text: Sander
+                - generic [ref=f2e145]:
+                  - checkbox "Saw" [ref=f2e146]
+                  - text: Saw
+                - generic [ref=f2e148]:
+                  - checkbox "Drill" [ref=f2e149]
+                  - text: Drill
+          - generic [ref=f2e150]:
+            - generic [ref=f2e151]:
+              - checkbox "Other" [ref=f2e152]
+              - text: Other
+            - list [ref=f2e153]:
+              - group "Catégories" [ref=f2e154]:
+                - generic [ref=f2e157]:
+                  - checkbox "Tool Belts" [ref=f2e158]
+                  - text: Tool Belts
+                - generic [ref=f2e160]:
+                  - checkbox "Storage Solutions" [ref=f2e161]
+                  - text: Storage Solutions
+                - generic [ref=f2e163]:
+                  - checkbox "Workbench" [ref=f2e164]
+                  - text: Workbench
+                - generic [ref=f2e166]:
+                  - checkbox "Safety Gear" [ref=f2e167]
+                  - text: Safety Gear
+                - generic [ref=f2e169]:
+                  - checkbox "Fasteners" [ref=f2e170]
+                  - text: Fasteners
+        - heading "Par marque:" [level=4] [ref=f2e172]
+        - group "Marques" [ref=f2e173]:
+          - generic [ref=f2e176]:
+            - checkbox "ForgeFlex Tools" [ref=f2e177]
+            - text: ForgeFlex Tools
+          - generic [ref=f2e179]:
+            - checkbox "MightyCraft Hardware" [ref=f2e180]
+            - text: MightyCraft Hardware
+        - heading "Durabilité:" [level=4] [ref=f2e182]
+        - group "Produits Écologiques" [ref=f2e183]:
+          - generic [ref=f2e186]:
+            - checkbox "Afficher uniquement les produits écologiques" [ref=f2e187]
+            - text: Afficher uniquement les produits écologiques
+      - generic [ref=f2e188]:
+        - generic [ref=f2e189]:
+          - 'link "Combination Pliers Comparer Combination Pliers CO₂: A B C D E $14.15" [ref=f2e190] [cursor=pointer]':
+            - /url: /product/01M5GND75DE8R8JBHYD9G7GTRH
+            - generic [ref=f2e191]:
+              - img "Combination Pliers" [ref=f2e192]
+              - button "Comparer" [ref=f2e193]
+            - generic [ref=f2e197]:
+              - heading "Combination Pliers" [level=5] [ref=f2e198]
+              - generic "A = le plus respectueux de l'environnement, E = impact environnemental plus élevé" [ref=f2e199]:
+                - text: "CO₂:"
+                - generic [ref=f2e200]: A
+                - generic [ref=f2e201]: B
+                - generic [ref=f2e202]: C
+                - generic [ref=f2e203]: D
+                - generic [ref=f2e204]: E
+            - generic [ref=f2e205]: $14.15
+          - 'link "Pliers Comparer Pliers CO₂: A B C D E $12.01" [ref=f2e207] [cursor=pointer]':
+            - /url: /product/01M5GND75HPV0PQ72MQXKN112F
+            - generic [ref=f2e208]:
+              - img "Pliers" [ref=f2e209]
+              - button "Comparer" [ref=f2e210]
+            - generic [ref=f2e214]:
+              - heading "Pliers" [level=5] [ref=f2e215]
+              - generic "A = le plus respectueux de l'environnement, E = impact environnemental plus élevé" [ref=f2e216]:
+                - text: "CO₂:"
+                - generic [ref=f2e217]: A
+                - generic [ref=f2e218]: B
+                - generic [ref=f2e219]: C
+                - generic [ref=f2e220]: D
+                - generic [ref=f2e221]: E
+            - generic [ref=f2e222]: $12.01
+          - 'link "Bolt Cutters Comparer Bolt Cutters CO₂: A B C D E $48.41" [ref=f2e224] [cursor=pointer]':
+            - /url: /product/01M5GND75N0P5KPN5W7QFYXQJV
+            - generic [ref=f2e225]:
+              - img "Bolt Cutters" [ref=f2e226]
+              - button "Comparer" [ref=f2e227]
+            - generic [ref=f2e231]:
+              - heading "Bolt Cutters" [level=5] [ref=f2e232]
+              - generic "A = le plus respectueux de l'environnement, E = impact environnemental plus élevé" [ref=f2e233]:
+                - text: "CO₂:"
+                - generic [ref=f2e234]: A
+                - generic [ref=f2e235]: B
+                - generic [ref=f2e236]: C
+                - generic [ref=f2e237]: D
+                - generic [ref=f2e238]: E
+            - generic [ref=f2e239]: $48.41
+          - 'link "Long Nose Pliers Comparer Long Nose Pliers CO₂: A B C D E Rupture de stock $14.24" [ref=f2e241] [cursor=pointer]':
+            - /url: /product/01M5GND761K2NTWCZDBNNVZF7Z
+            - generic [ref=f2e242]:
+              - img "Long Nose Pliers" [ref=f2e243]
+              - button "Comparer" [ref=f2e244]
+            - generic [ref=f2e248]:
+              - heading "Long Nose Pliers" [level=5] [ref=f2e249]
+              - generic "A = le plus respectueux de l'environnement, E = impact environnemental plus élevé" [ref=f2e250]:
+                - text: "CO₂:"
+                - generic [ref=f2e251]: A
+                - generic [ref=f2e252]: B
+                - generic [ref=f2e253]: C
+                - generic [ref=f2e254]: D
+                - generic [ref=f2e255]: E
+            - generic [ref=f2e256]:
+              - generic [ref=f2e257]: Rupture de stock
+              - generic [ref=f2e258]: $14.24
+          - 'link "Slip Joint Pliers Comparer Slip Joint Pliers CO₂: A B C D E $9.17" [ref=f2e259] [cursor=pointer]':
+            - /url: /product/01M5GND7662H72M48DH88MBZ04
+            - generic [ref=f2e260]:
+              - img "Slip Joint Pliers" [ref=f2e261]
+              - button "Comparer" [ref=f2e262]
+            - generic [ref=f2e266]:
+              - heading "Slip Joint Pliers" [level=5] [ref=f2e267]
+              - generic "A = le plus respectueux de l'environnement, E = impact environnemental plus élevé" [ref=f2e268]:
+                - text: "CO₂:"
+                - generic [ref=f2e269]: A
+                - generic [ref=f2e270]: B
+                - generic [ref=f2e271]: C
+                - generic [ref=f2e272]: D
+                - generic [ref=f2e273]: E
+            - generic [ref=f2e274]: $9.17
+          - 'link "Claw Hammer with Shock Reduction Grip Comparer Claw Hammer with Shock Reduction Grip CO₂: A B C D E $13.41" [ref=f2e276] [cursor=pointer]':
+            - /url: /product/01M5GND76DX63X0V1S632TWZFC
+            - generic [ref=f2e277]:
+              - img "Claw Hammer with Shock Reduction Grip" [ref=f2e278]
+              - button "Comparer" [ref=f2e279]
+            - generic [ref=f2e283]:
+              - heading "Claw Hammer with Shock Reduction Grip" [level=5] [ref=f2e284]
+              - generic "A = le plus respectueux de l'environnement, E = impact environnemental plus élevé" [ref=f2e285]:
+                - text: "CO₂:"
+                - generic [ref=f2e286]: A
+                - generic [ref=f2e287]: B
+                - generic [ref=f2e288]: C
+                - generic [ref=f2e289]: D
+                - generic [ref=f2e290]: E
+            - generic [ref=f2e291]: $13.41
+          - 'link "Hammer Comparer Hammer CO₂: A B C D E $12.58" [ref=f2e293] [cursor=pointer]':
+            - /url: /product/01M5GND76N9P1WQ5T8HJVJ5N3F
+            - generic [ref=f2e294]:
+              - img "Hammer" [ref=f2e295]
+              - button "Comparer" [ref=f2e296]
+            - generic [ref=f2e300]:
+              - heading "Hammer" [level=5] [ref=f2e301]
+              - generic "A = le plus respectueux de l'environnement, E = impact environnemental plus élevé" [ref=f2e302]:
+                - text: "CO₂:"
+                - generic [ref=f2e303]: A
+                - generic [ref=f2e304]: B
+                - generic [ref=f2e305]: C
+                - generic [ref=f2e306]: D
+                - generic [ref=f2e307]: E
+            - generic [ref=f2e308]: $12.58
+          - 'link "Claw Hammer Comparer Claw Hammer CO₂: A B C D E $11.48" [ref=f2e310] [cursor=pointer]':
+            - /url: /product/01M5GND76XN01H7QVXZRB78RDZ
+            - generic [ref=f2e311]:
+              - img "Claw Hammer" [ref=f2e312]
+              - button "Comparer" [ref=f2e313]
+            - generic [ref=f2e317]:
+              - heading "Claw Hammer" [level=5] [ref=f2e318]
+              - generic "A = le plus respectueux de l'environnement, E = impact environnemental plus élevé" [ref=f2e319]:
+                - text: "CO₂:"
+                - generic [ref=f2e320]: A
+                - generic [ref=f2e321]: B
+                - generic [ref=f2e322]: C
+                - generic [ref=f2e323]: D
+                - generic [ref=f2e324]: E
+            - generic [ref=f2e325]: $11.48
+          - 'link "Thor Hammer Comparer Thor Hammer CO₂: A B C D E $11.14" [ref=f2e327] [cursor=pointer]':
+            - /url: /product/01M5GND773BS12QCXFZNCMJA07
+            - generic [ref=f2e328]:
+              - img "Thor Hammer" [ref=f2e329]
+              - button "Comparer" [ref=f2e330]
+            - generic [ref=f2e334]:
+              - heading "Thor Hammer" [level=5] [ref=f2e335]
+              - generic "A = le plus respectueux de l'environnement, E = impact environnemental plus élevé" [ref=f2e336]:
+                - text: "CO₂:"
+                - generic [ref=f2e337]: A
+                - generic [ref=f2e338]: B
+                - generic [ref=f2e339]: C
+                - generic [ref=f2e340]: D
+                - generic [ref=f2e341]: E
+            - generic [ref=f2e342]: $11.14
+        - navigation [ref=f2e346]:
+          - list [ref=f2e347]:
+            - listitem [ref=f2e348]:
+              - button "Previous": «
+            - listitem [ref=f2e349]:
+              - button "Page-1" [ref=f2e350] [cursor=pointer]: "1"
+            - listitem [ref=f2e351]:
+              - button "Page-2" [ref=f2e352] [cursor=pointer]: "2"
+            - listitem [ref=f2e353]:
+              - button "Page-3" [ref=f2e354] [cursor=pointer]: "3"
+            - listitem [ref=f2e355]:
+              - button "Page-4" [ref=f2e356] [cursor=pointer]: "4"
+            - listitem [ref=f2e357]:
+              - button "Page-5" [ref=f2e358] [cursor=pointer]: "5"
+            - listitem [ref=f2e359]:
+              - button "Next" [ref=f2e360] [cursor=pointer]: »
+  - contentinfo [ref=f2e362]:
+    - generic [ref=f2e364]:
+      - generic [ref=f2e365]: Learn & Explore
+      - generic [ref=f2e366]:
+        - link "Learn Test Automation Hands-on courses for Playwright, Robot Framework, APIs and more" [ref=f2e368] [cursor=pointer]:
+          - /url: https://onlinecourses.testsmith.io
+          - generic [ref=f2e371]:
+            - generic [ref=f2e372]: Learn Test Automation
+            - text: Hands-on courses for Playwright, Robot Framework, APIs and more
+        - link "API Spector Open-source API testing, mocking and contract testing" [ref=f2e374] [cursor=pointer]:
+          - /url: https://api-spector.dev
+          - generic [ref=f2e377]:
+            - generic [ref=f2e378]: API Spector
+            - text: Open-source API testing, mocking and contract testing
+        - link "GitHub Source code, issues and contributions" [ref=f2e380] [cursor=pointer]:
+          - /url: https://github.com/testsmith-io/practice-software-testing
+          - generic [ref=f2e383]:
+            - generic [ref=f2e384]: GitHub
+            - text: Source code, issues and contributions
+    - generic [ref=f2e385]:
+      - generic [ref=f2e386]:
+        - text: Ceci est une application de démonstration, utilisée à des fins de formation aux tests logiciels. |
+        - link "Privacy Policy" [ref=f2e387] [cursor=pointer]:
+          - /url: /privacy
+        - text: "| Banner photo by"
+        - link "Barn Images" [ref=f2e388] [cursor=pointer]:
+          - /url: https://unsplash.com/@barnimages
+        - text: "on"
+        - link "Unsplash" [ref=f2e389] [cursor=pointer]:
+          - /url: https://unsplash.com/photos/t5YUoHW6zRo
+        - text: .
+      - generic [ref=f2e390]: v2.5 | Built 2026-10-11 | Angular 20.0.5
+  - button "Open chat" [ref=f2e392] [cursor=pointer]
+  - button "Show live shop activity" [ref=f2e396] [cursor=pointer]

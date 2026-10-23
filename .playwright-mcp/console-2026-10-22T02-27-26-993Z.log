@@ -1,0 +1,15 @@
+[     723ms] [ERROR] ERROR v: NG04002: 'cart'
+    at Dh.noMatchError (https://practicesoftwaretesting.com/chunk-XPTZBBTO.js:8:59420)
+    at https://practicesoftwaretesting.com/chunk-XPTZBBTO.js:8:60159
+    at https://practicesoftwaretesting.com/chunk-XPTZBBTO.js:3:20058
+    at Eu._error (https://practicesoftwaretesting.com/chunk-XPTZBBTO.js:3:5478)
+    at Eu.error (https://practicesoftwaretesting.com/chunk-XPTZBBTO.js:3:2583)
+    at Eu._error (https://practicesoftwaretesting.com/chunk-XPTZBBTO.js:3:2823)
+    at Eu.error (https://practicesoftwaretesting.com/chunk-XPTZBBTO.js:3:2583)
+    at Eu._error (https://practicesoftwaretesting.com/chunk-XPTZBBTO.js:3:2823)
+    at Eu.error (https://practicesoftwaretesting.com/chunk-XPTZBBTO.js:3:2583)
+    at Eu._error (https://practicesoftwaretesting.com/chunk-XPTZBBTO.js:3:2823) @ https://practicesoftwaretesting.com/chunk-XPTZBBTO.js:6
+[    1695ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.practicesoftwaretesting.com/users/me:0
+[    1699ms] [ERROR] ERROR {message: Unauthorized} @ https://practicesoftwaretesting.com/chunk-XPTZBBTO.js:6
+[    1997ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.practicesoftwaretesting.com/users/me:0
+[    5004ms] [WARNING] The resource https://practicesoftwaretesting.com/assets/img/barn-2400x1600.avif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://practicesoftwaretesting.com/:0

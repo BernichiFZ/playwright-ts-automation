@@ -1,0 +1,50 @@
+- generic [ref=f1e2]:
+  - generic [ref=f1e3]:
+    - text: View the
+    - link "Documentation" [ref=f1e4] [cursor=pointer]:
+      - /url: https://testsmith-io.github.io/practice-software-testing/#/
+    - text: for this application.
+  - generic [ref=f1e5]:
+    - generic [ref=f1e7]:
+      - generic [ref=f1e8]: Practice Black Box Testing & Bug Hunting
+      - button "Testing Guide" [ref=f1e9] [cursor=pointer]
+      - button "🐛 Bug Hunting" [ref=f1e10] [cursor=pointer]
+    - navigation [ref=f1e11]:
+      - generic [ref=f1e12]:
+        - link "Practice Software Testing - Toolshop" [ref=f1e13] [cursor=pointer]:
+          - /url: /
+        - button "Toggle navigation" [ref=f1e32] [cursor=pointer]
+  - contentinfo [ref=f1e35]:
+    - generic [ref=f1e37]:
+      - generic [ref=f1e38]: Learn & Explore
+      - generic [ref=f1e39]:
+        - link "Learn Test Automation Hands-on courses for Playwright, Robot Framework, APIs and more" [ref=f1e41] [cursor=pointer]:
+          - /url: https://onlinecourses.testsmith.io
+          - generic [ref=f1e44]:
+            - generic [ref=f1e45]: Learn Test Automation
+            - text: Hands-on courses for Playwright, Robot Framework, APIs and more
+        - link "API Spector Open-source API testing, mocking and contract testing" [ref=f1e47] [cursor=pointer]:
+          - /url: https://api-spector.dev
+          - generic [ref=f1e50]:
+            - generic [ref=f1e51]: API Spector
+            - text: Open-source API testing, mocking and contract testing
+        - link "GitHub Source code, issues and contributions" [ref=f1e53] [cursor=pointer]:
+          - /url: https://github.com/testsmith-io/practice-software-testing
+          - generic [ref=f1e56]:
+            - generic [ref=f1e57]: GitHub
+            - text: Source code, issues and contributions
+    - generic [ref=f1e58]:
+      - generic [ref=f1e59]:
+        - text: This is a DEMO application, used for software testing training purpose. |
+        - link "Privacy Policy" [ref=f1e60] [cursor=pointer]:
+          - /url: /privacy
+        - text: "| Banner photo by"
+        - link "Barn Images" [ref=f1e61] [cursor=pointer]:
+          - /url: https://unsplash.com/@barnimages
+        - text: "on"
+        - link "Unsplash" [ref=f1e62] [cursor=pointer]:
+          - /url: https://unsplash.com/photos/t5YUoHW6zRo
+        - text: .
+      - generic [ref=f1e63]: v2.5 | Built 2026-10-11 | Angular 20.0.5
+  - button "Open chat" [ref=f1e65] [cursor=pointer]
+  - button "Show live shop activity" [ref=f1e69] [cursor=pointer]

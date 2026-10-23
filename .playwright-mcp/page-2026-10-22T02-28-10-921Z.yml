@@ -1,0 +1,11 @@
+- generic [ref=f20e2]:
+  - generic [ref=f20e3]:
+    - text: View the
+    - link "Documentation" [ref=f20e4] [cursor=pointer]:
+      - /url: https://testsmith-io.github.io/practice-software-testing/#/
+    - text: for this application.
+  - generic [ref=f20e7]:
+    - generic [ref=f20e8]: Practice Black Box Testing & Bug Hunting
+    - button "Testing Guide" [ref=f20e9] [cursor=pointer]
+    - button "🐛 Bug Hunting" [ref=f20e10] [cursor=pointer]
+  - button "Show live shop activity" [ref=f20e12] [cursor=pointer]
