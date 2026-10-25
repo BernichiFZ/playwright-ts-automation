@@ -43,6 +43,7 @@ export class RegisterPage {
     await this.phone.fill(data.phone);
     await this.email.fill(data.email);
     await this.password.fill(data.password);
+    await this.page.waitForTimeout(500);
     await this.submitButton.click();
   }
 }
