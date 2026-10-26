@@ -1,5 +1,5 @@
 import type { Locator, Page } from '@playwright/test';
-import type { LoginData } from '../test-data/types';
+import type { FailedLoginData, LoginData } from '../test-data/types';
 
 export class LoginPage {
   readonly email: Locator;
@@ -15,6 +15,14 @@ export class LoginPage {
   }
 
   async login(data: LoginData): Promise<void> {
+    await this.page.goto('https://practicesoftwaretesting.com/');
+    await this.signInLink.click();
+    await this.email.fill(data.email);
+    await this.password.fill(data.password);
+    await this.submitButton.click();
+  }
+
+  async Failedlogin(data: FailedLoginData): Promise<void> {
     await this.page.goto('https://practicesoftwaretesting.com/');
     await this.signInLink.click();
     await this.email.fill(data.email);

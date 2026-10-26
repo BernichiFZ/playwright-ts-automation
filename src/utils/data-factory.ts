@@ -1,4 +1,4 @@
-import type { RegistrationData } from '../test-data/types';
+import type { FailedLoginData, RegistrationData } from '../test-data/types';
 import { LoginData } from '../test-data/types'; 
 
 export function buildRegistrationData(
@@ -14,7 +14,7 @@ export function buildRegistrationData(
     houseNumber: '56',
     phone: '0612345678',
     email: `user+${unique}@example.com`,
-    password: 'KaliKali2003@§%',
+    password: 'HNhkP@@64Htt54',
     ...overrides,
   };
 }
@@ -28,3 +28,14 @@ export function buildLoginData(
     ...overrides,
   };
 } 
+
+export function buildFailedLoginData(
+  overrides: Partial<FailedLoginData> = {},
+): FailedLoginData {
+  return {
+    email: `useruser@example.com`,
+    password: 'IncorrectPassword123!',
+    ...overrides,
+  };
+}
+  
