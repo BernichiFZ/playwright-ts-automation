@@ -19,3 +19,8 @@ export type FailedLoginData = {
   email: string;
   password: string;         
 };
+
+export type ForgottenPWData = { 
+  email: string;
+  newpassword: string;
+};
