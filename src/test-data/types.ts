@@ -24,3 +24,10 @@ export type ForgottenPWData = {
   email: string;
   newpassword: string;
 };
+
+export type ModifyData = {  
+  name: string;
+  phone: string;
+  email: string;
+  newpassword: string;
+};

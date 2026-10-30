@@ -35,9 +35,7 @@ test('registers, rejects an incorrect password, resets it, and logs in', async (
   });
   await expect(page.getByText(/invalid email or password|login failed/i)).toBeVisible();
 
-  await page.goto('https://practicesoftwaretesting.com/');
-  await registerPage.signInLink.click();
-  await page.getByRole('link', { name: /forgot/i }).click();
+  await page.getByRole('link', { name: 'Forgot your Password?' }).click();
   await forgotpwPage.email.fill(email);
   const resetResponsePromise = page.waitForResponse(
     (response) =>
